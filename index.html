@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calorie Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1><b>CALORIE COUNTER</b></h1>
+
+    <!-- SLIDERS -->
+    <div class="slider-box">
+      <label>Protein: <span id="proteinValue">0</span> g</label>
+      <input type="range" id="proteinSlider" min="0" max="200" value="0">
+    </div>
+
+    <div class="slider-box">
+      <label>Fat: <span id="fatValue">0</span> g</label>
+      <input type="range" id="fatSlider" min="0" max="150" value="0">
+    </div>
+
+    <div class="slider-box">
+      <label>Carbs: <span id="carbValue">0</span> g</label>
+      <input type="range" id="carbSlider" min="0" max="300" value="0">
+    </div>
+
+    <!-- RESULTS -->
+    <div class="results">
+      <p>Protein Calories: <span id="displayProtein">0 kcal</span></p>
+      <p>Fat Calories: <span id="displayFat">0 kcal</span></p>
+      <p>Carb Calories: <span id="displayCarb">0 kcal</span></p>
+      <hr>
+      <p class="total">Total Calories: <span id="displayTotal">0 kcal</span></p>
+      <p class="goal">Goal: <span id="displayGoal">-</span></p>
+      <p class="calorie-status">Status: <span id="displayCalorieStatus">-</span></p>
+      
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

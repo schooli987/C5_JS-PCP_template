@@ -1,0 +1,148 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* BODY */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  margin: 0;
+  padding: 0;
+  color: #1f2937;
+}
+
+/* CONTAINER */
+.container {
+  width: 380px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #111827;
+}
+
+/* SLIDER BOX */
+.slider-box {
+  margin-bottom: 22px;
+  padding: 14px;
+  border-radius: 10px;
+  background: #f1f5f9;
+}
+
+/* LABEL */
+label {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* VALUE + UNIT */
+label span {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* UNIT */
+.unit {
+  opacity: 0.6;
+  font-size: 13px;
+}
+
+/* RANGE TRACK */
+input[type="range"] {
+  width: 100%;
+  -webkit-appearance: none;
+  height: 6px;
+  border-radius: 5px;
+  outline: none;
+  background: #e5e7eb;
+}
+
+/* THUMB */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -5px;
+  transition: transform 0.15s ease;
+}
+
+input[type="range"]:hover::-webkit-slider-thumb {
+  transform: scale(1.2);
+}
+
+/* PROTEIN */
+#proteinSlider::-webkit-slider-thumb {
+  background: #3b82f6;
+}
+
+/* FAT */
+#fatSlider::-webkit-slider-thumb {
+  background: #ef4444;
+}
+
+/* CARBS */
+#carbSlider::-webkit-slider-thumb {
+  background: #f97316;
+}
+
+/* RESULTS CARD */
+.results {
+  margin-top: 25px;
+  padding: 16px;
+  border-radius: 12px;
+  background: #f1f5f9;
+}
+
+/* RESULT TEXT */
+.results p {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 14px;
+  color: #374151;
+}
+
+/* TOTAL */
+.total {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #111827;
+}
+
+/* GOAL */
+#displayGoal {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #16a34a;
+  text-transform: uppercase;
+}
+
+/* STATUS */
+#displayCalorieStatus {
+  font-weight: 600;
+  color: #ca8a04;
+  text-transform: uppercase;
+}
+
+/* DIVIDER */
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 10px 0;
+}
